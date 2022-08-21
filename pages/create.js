@@ -4,6 +4,9 @@ import { useEffect, useState } from "react";
 import Web3 from "web3";
 
 import Navbar from "../components/Navbar";
+import Drawer from "../components/Drawer";
+import DrumMachine from "../components/DrumMachine";
+import StepSequence from "../components/StepSequence";
 
 const Create = () => {
   const [web3, setWeb3] = useState(null);
@@ -56,6 +59,11 @@ const Create = () => {
       </Head>
 
       <Navbar Web3Handler={Web3Handler} account={account} />
+
+      <div className="grid grid-cols-4 gap-4">
+        <Drawer account={account} Web3Handler={Web3Handler} />
+        <StepSequence />
+      </div>
     </div>
   );
 };

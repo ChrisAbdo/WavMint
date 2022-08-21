@@ -62,9 +62,7 @@ const Navbar = ({ Web3Handler, account }) => {
                 >
                   <div className="grid grid-cols-5 grid-rows-3">
                     <div className="col-span-5 row-span-3 row-start-1 flex gap-1 py-3 px-4">
-                      <div className="flex-grow text-sm font-bold">
-                        corporate
-                      </div>{" "}
+                      <div className="flex-grow text-sm font-bold">light</div>{" "}
                       <div className="flex flex-shrink-0 flex-wrap gap-1">
                         <div className="bg-primary w-2 rounded"></div>{" "}
                         <div className="bg-secondary w-2 rounded"></div>{" "}
@@ -133,9 +131,7 @@ const Navbar = ({ Web3Handler, account }) => {
                 >
                   <div className="grid grid-cols-5 grid-rows-3">
                     <div className="col-span-5 row-span-3 row-start-1 flex gap-1 py-3 px-4">
-                      <div className="flex-grow text-sm font-bold">
-                        business
-                      </div>{" "}
+                      <div className="flex-grow text-sm font-bold">dark</div>{" "}
                       <div className="flex flex-shrink-0 flex-wrap gap-1">
                         <div className="bg-primary w-2 rounded"></div>{" "}
                         <div className="bg-secondary w-2 rounded"></div>{" "}
